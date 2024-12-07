@@ -6,6 +6,7 @@ import Skills from './Skills'
 import { CoolModeDemo } from './CoolModeDemo'
 import Project from './Project'
 import Contact from './Contact'
+import Footer from './Footer'
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
             <Skills/>
             <Project/>
             <Contact/>
+            <Footer/>
         </div>
     </>
   )
