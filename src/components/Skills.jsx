@@ -32,13 +32,13 @@ function Skills() {
             <h1 className="text-3xl font-bold mb-4 sm:mb-5 text-gray-900 dark:text-gray-50">Skills</h1>
 
             {/* Skill Category Buttons */}
-            <div className="border py-2 px-5 flex items-center justify-evenly rounded-full w-full sm:w-[60%]">
+            <div className="border py-3 px-5 flex items-center justify-evenly rounded-full sm:w-[55%] w-full">
                 {["frontend", "backend", "others"].map((cat) => (
                     <Button
                         key={cat}
                         onClick={() => setCategory(cat)}
                         aria-label={`Show ${cat} skills`}
-                        className={`rounded-full font-bold text-xs sm:text-sm px-4 py-0 sm:px-5 sm:py-3 transition-colors duration-300 ${
+                        className={`rounded-full font-bold text-sm sm:text-sm px-4 py-4 sm:px-5 sm:py-4 transition-colors duration-300 ${
                             category === cat
                                 ? "bg-sky-500 text-white"
                                 : "bg-gray-200 dark:bg-gray-800 text-black dark:text-white"

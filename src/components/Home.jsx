@@ -4,6 +4,8 @@ import Hero from './Hero'
 import Education from './Education'
 import Skills from './Skills'
 import { CoolModeDemo } from './CoolModeDemo'
+import Project from './Project'
+import Contact from './Contact'
 
 function Home() {
   return (
@@ -13,6 +15,8 @@ function Home() {
             <Hero/>
             <Education/>
             <Skills/>
+            <Project/>
+            <Contact/>
         </div>
     </>
   )

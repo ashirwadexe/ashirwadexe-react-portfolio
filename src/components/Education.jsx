@@ -4,7 +4,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './
 function Education() {
     return (
         <div className="max-w-screen-md mx-auto p-4 sm:p-6">
-            <h1 className="sm:mb-5 text-2xl sm:text-3xl text-center font-bold text-[#222222] dark:text-white">
+            <h1 className="sm:mb-5 text-3xl sm:text-3xl text-center font-bold text-[#222222] dark:text-white">
                 Education
             </h1>
 
