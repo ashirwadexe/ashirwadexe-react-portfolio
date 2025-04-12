@@ -14,7 +14,7 @@ function Navbar() {
                 }
             </div>
             <div>
-                <a href="https://drive.google.com/file/d/1-JYIbfeDlOrmNLjXTCFk_x4foc3apbDf/view?usp=sharing" target='blank'><Button className=" bg-sky-400 text-white hover:bg-sky-500 hover:text-white dark:bg-sky-400 dark:text-white rounded-full transform transition-transform duration-300 hover:scale-110 hover:shadow-lg px-3 py-4 text-sm sm:px-5 sm:py-4"><FileUser />Resume</Button></a>
+                <a href="https://drive.google.com/file/d/1A4aBAk07e98x56Z8T3omq9l46QLIL9QL/view?usp=sharing" target='blank'><Button className=" bg-sky-400 text-white hover:bg-sky-500 hover:text-white dark:bg-sky-400 dark:text-white rounded-full transform transition-transform duration-300 hover:scale-110 hover:shadow-lg px-3 py-4 text-sm sm:px-5 sm:py-4"><FileUser />Resume</Button></a>
             </div>
         </div>
     )
