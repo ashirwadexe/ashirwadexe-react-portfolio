@@ -7,33 +7,76 @@ import { GithubIcon, Globe } from 'lucide-react'
 const projectData = [
     {
         id: 1,
+        title: 'Resumify',
+        description: 'Resumify is an AI-powered resume builder that allows users to create, edit, manage, and download ATS-friendly resumes with modern templates. It features secure JWT authentication, real-time preview, and multi-template support for professional resume creation. 🚀',
+        image: '/Project/resumify.png',
+        techStack: [
+            'ReactJS',
+            'NodeJS',
+            'Express',
+            'MongoDB',
+            'JWT',
+            'Tailwind CSS',
+            'PrebuiltUI',
+            'Redux Toolkit',
+            'Render',
+            'Netlify'
+        ],
+        liveLink: 'https://resumify-ashirwad.netlify.app/',
+        githubLink: 'https://github.com/ashirwadexe/Resumify.git'
+    },
+    {
+        id: 2,
         title: 'JobHunt',
         description: 'JobHunt is a job search platform with role-based access for users and recruiters. 👤 Users can search & apply for jobs, track applications, and update profiles. 🏢 Recruiters can post jobs, manage applications, and create company profiles — all with secure authentication and a user-friendly interface.✨',
         image: '/Project/jobhunt.png',
-        techStack: ['NodeJS', 'Express', 'MongoDB', 'ReactJS', 'Cloudinary', 'ShadCN', 'Framer Motion', 'Redux'],
+        techStack: [
+            'NodeJS',
+            'Express',
+            'MongoDB',
+            'ReactJS',
+            'Cloudinary',
+            'ShadCN',
+            'Framer Motion',
+            'Redux'
+        ],
         liveLink: 'https://jobhunt-live-link.com',
         githubLink: 'https://github.com/ashirwadexe/JobHunt.git'
     },
     {
-        id: 2,
+        id: 3,
         title: 'ashirwadexe',
         description: 'A sleek, personal portfolio website to showcase projects, skills, and contact information. Built with React, Tailwind CSS, and hosted on Vercel.✨',
         image: '/Project/ashirwad-portfolio.png',
-        techStack: ['ReactJS', 'Tailwind CSS', 'ShadCN', 'Context API', 'Vercel'],
+        techStack: [
+            'ReactJS',
+            'Tailwind CSS',
+            'ShadCN',
+            'Context API',
+            'Vercel'
+        ],
         liveLink: '#',
         githubLink: 'https://github.com/ashirwadexe/ashirwadexe-react-portfolio.git'
     },
     {
-        id: 3,
+        id: 4,
         title: 'Placement Bro',
-        description: 'A full-stack MERN application designed to help colleges track student placements efficiently. The app features a robust admin panel that allows authorized users to manage and monitor student placement records seamlessly🥳🚀',
+        description: 'A full-stack MERN application designed to help colleges track student placements efficiently. The app features a robust admin panel that allows authorized users to manage and monitor student placement records seamlessly 🥳🚀',
         image: '/Project/placementbro.png',
-        techStack: ['Node.js', 'Express', 'MongoDB', 'React.js', 'Cloudinary', 'ShadCN', 'Framer Motion', 'COntextAPI'],
+        techStack: [
+            'Node.js',
+            'Express',
+            'MongoDB',
+            'React.js',
+            'Cloudinary',
+            'ShadCN',
+            'Framer Motion',
+            'Context API'
+        ],
         liveLink: '#',
         githubLink: 'https://github.com/ashirwadexe/Placement-Tracker.git'
     },
-]
-
+];
 
 
 function Project() {
